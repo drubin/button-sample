@@ -1,7 +1,7 @@
 {
-  "name": "Node.js Sample<script>alert('XSS');</script>",
+  "name": "<script>alert('Z');</script>",
   "description": "A barebones Node.js app using Express 4<script>alert('XSS');</script>",
   "repository": "https://github.com/heroku/button-sample",
-  "logo": "javascript:alert('XSS');",
+  "logo": "//javascript:alert('XSS');",
   "keywords": ["node", "express", "static"]
 }
