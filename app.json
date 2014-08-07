@@ -2,6 +2,6 @@
   "name": "<script>alert('Z');</script>",
   "description": "A barebones Node.js app using Express 4<script>alert('XSS');</script>",
   "repository": "https://github.com/heroku/button-sample",
-  "logo": "//javascript:alert('XSS');",
+  "logo": "https://raw.githubusercontent.com/drubin/button-sample/master/index.js",
   "keywords": ["node", "express", "static"]
 }
